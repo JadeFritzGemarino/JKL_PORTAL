@@ -33,7 +33,7 @@ export default function RootLayout({
                 <a className="text-white font-bold hover:text-jkl-green" href="/">Home</a>
               </li>
               <li>
-                <a className="text-white font-bold hover:text-jkl-green" href="/about">About</a>
+                <a className="text-white font-bold hover:text-jkl-green" href="/about-page">About</a>
               </li>
 
               <li className="ml-auto">
