@@ -53,7 +53,7 @@ export default function Home() {
             <div className="relative aspect-square w-full bg-gray-100 overflow-hidden shadow-2xl group">
               {/* Main Image */}
               <img 
-                src="/api/placeholder/800/800" 
+                src="/jkl_assets/bg-2.jpg" 
                 alt="JKL University Campus" 
                 className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
               />
