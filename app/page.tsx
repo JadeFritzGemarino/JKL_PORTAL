@@ -84,11 +84,18 @@ export default function Home() {
               </div>
               <button className="mt-6 text-jkl-green font-bold text-sm hover:underline">Read story →</button>
             </div>
-            <div className="md:w-1/2 bg-gradient-to-br from-green-100 to-green-300 relative min-h-[300px] flex items-center justify-center">
-              <div className="w-16 h-16 bg-black/20 backdrop-blur-md rounded-full flex items-center justify-center text-white">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 ml-1"><path d="M8 5v14l11-7z" /></svg>
+            <div className="md:w-1/2 relative min-h-[300px] flex items-center justify-center overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800" 
+                alt="AI Lab" 
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="relative z-10 w-16 h-16 bg-black/20 backdrop-blur-md rounded-full flex items-center justify-center text-white">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 ml-1">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
               </div>
-              <span className="absolute bottom-4 left-4 text-[10px] bg-white/80 px-2 py-1 rounded font-bold uppercase">Photo story</span>
+              <span className="absolute bottom-4 left-4 z-10 text-[10px] bg-white/80 px-2 py-1 rounded font-bold uppercase">Photo story</span>
             </div>
           </div>
 

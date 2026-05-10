@@ -18,6 +18,8 @@ export default function RootLayout({
     pathname.startsWith("/dashboard");
 
   return (
+
+
     <html lang="en" className="scroll-smooth">
       <body className="antialiased">
         {!hideNav && (
@@ -49,9 +51,23 @@ export default function RootLayout({
               </li>
             </ul>
           </nav>
+
         )}
 
-        <main>{children}</main>
+        <main className="flex-grow">
+          {children}
+        </main>
+
+        <footer className="w-full bg-gray-900 text-white py-6 px-10">
+          <div className="max-w-7xl mx-auto flex justify-between items-center">
+           
+            <p>© 2026 JKL University. All rights reserved.</p>
+
+            <p className="text-gray-400">support@jkluniversity.edu</p>
+          </div>
+        </footer>
+
+
       </body>
     </html>
   );
